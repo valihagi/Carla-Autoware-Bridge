@@ -34,6 +34,7 @@ def generate_launch_description():
             launch_arguments={
                 'objects_definition_file': launch.substitutions.LaunchConfiguration(
                     'objects_definition_file'),
+                'spawn_sensors_only': 'True',
             }.items()
         )
     ])
