@@ -23,7 +23,7 @@
         },
         {
             "type": "vehicle.volkswagen.t2_2021",
-            "id": "ego_vehicle",
+            "id": "ego",
             "attributes": {
                 "color": "60, 60, 130"
             },
